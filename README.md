@@ -1,8 +1,7 @@
 # GoldProHunterBot
 GoldProHunterBot/
 │
-├── bot.py
-from telegram import Update
+├── bot.py from telegram import Update
 from telegram.ext import (
     Application,
     CommandHandler,
@@ -37,12 +36,9 @@ def main():
 
 if __name__ == "__main__":
     main()
-├── config.py
-import os
-
+├── config.py import os
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-├── requirements.txt
-python-telegram-bot==21.4
+├── requirements.txt python-telegram-bot==21.4
 python-dotenv==1.0.1
 ├── .gitignore
 .env
