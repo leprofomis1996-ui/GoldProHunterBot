@@ -21,7 +21,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 📊 US Stocks
 📰 Economic News
 🎓 ICT Academy
-Educational purposes only.
+Educational purposes 
 """
     )
 
@@ -45,4 +45,6 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 python-telegram-bot==21.4
 python-dotenv==1.0.1
 ├── .gitignore
+.env
+__pycache__/
 └── README.md
